@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bodything{
+    width: 100%;
+    height: 785px;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    height: 50px;
+    background-color: aquamarine;
+    border-bottom: 2px ridge black;
+}
+
+header a{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+nav{
+   display: flex;
+    justify-content: start;
+    text-align: center;
+    align-self: center
+}
+
+a:link{
+    color: rgb(0, 34, 66);
+}
+
+a:visited{
+    color: rgb(0, 37, 96);
+}
+
+a:hover{
+    color: lightseagreen;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#linkting:hover{
+    color: lightseagreen;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.nametag{
+    margin: 10px;
+    width: 300px;
+    border: 10px ridge black;
+    background-color: aquamarine;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.WelcomingTag{
+    margin: 10px 50px;
+}
+
+.profile{
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px ridge black;
+    margin-bottom: 120px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+.profile img{
+    width: 70px;
+    align-items: center;
+    margin-left: 10px;
+    margin: 5px;
+    border-radius: 1000px;
+}
+
+.descriptionbox{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px ridge black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.descriptionbox2{
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px ridge black;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 40px;
+    align-content: center;
+    
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: 3px ridge black;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Projectthing{
+    border: 1px ridge black;
+    height: 250px;
+    width: 280px;
+    background-color: aliceblue;
+    align-content: center;
+    text-align: center;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+}
+
+.Projectthing img{
+    border: 1px ridge black;
+    height: 160px;
+    width: 200px;
+}
